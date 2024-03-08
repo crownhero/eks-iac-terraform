@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         	   = "terraform-state-test-bucket-1"
+    bucket         	   = "terrform-django-project-1"
     key              	   = "terraform/backend_latest-test"
     region         	   = "us-east-1"
   }
